@@ -1,12 +1,12 @@
-# Ganit Internship Projects
-
-This repository contains multiple data analytics and machine learning capstone projects completed during my internship at Ganit.
-
-Each folder documents one capstone project, including Python notebooks, data files, and brief descriptions.
-
 ## 📁 Projects
 
-### 🔹 [`currency-api-capstone`](./currency-api-capstone/)
-Fetches 1 year of historical USD to INR currency exchange rate data using the [Frankfurter API](https://www.frankfurter.app/).  
-Outputs a CSV using a Jupyter notebook and provides the foundation for downstream analysis or visualization.
+### 🔹 [currency-api-capstone](currency-api-capstone)
 
+Fetches 1 year of historical currency exchange rate data (USD, INR, JPY, GBP, CNY) using the [Frankfurter API](https://www.frankfurter.app/).  
+Outputs a CSV via a Jupyter notebook and performs end-to-end analysis using Python.
+
+Key highlights:
+- Filters, cleans, and normalizes currency rates using **Z-score normalization**
+- Analyzes **volatility, strength**, and **correlation** between currencies
+- Visualizes trends and correlations with **line plots** and **heatmaps**
+- Derives insights for downstream decision-making or Tableau dashboards
